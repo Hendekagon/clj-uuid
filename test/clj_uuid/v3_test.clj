@@ -1,7 +1,7 @@
 (ns clj-uuid.v3-test
   (:refer-clojure :exclude [uuid?])
   (:require [clojure.test   :refer :all]
-            [clj-uuid       :refer :all]))
+            [core       :refer :all]))
 
 
 (deftest check-v3-special-cases

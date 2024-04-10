@@ -1,4 +1,4 @@
-(ns clj-uuid.clock)
+(ns danlentz.clj-uuid.clock)
   
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; Lock-Free, Thread-safe Monotonic Clock

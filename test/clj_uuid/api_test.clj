@@ -1,7 +1,7 @@
 (ns clj-uuid.api-test
   (:refer-clojure :exclude [uuid?])
   (:require [clojure.test :refer :all]
-            [clj-uuid     :refer :all])
+            [core     :refer :all])
   (:import
    (java.lang IllegalArgumentException)))
 

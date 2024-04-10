@@ -1,7 +1,7 @@
 (ns clj-uuid.v1-test
   (:require [clojure.test   :refer :all]
             [clojure.set]
-            [clj-uuid :refer [v1 get-timestamp]]))
+            [core :refer [v1 get-timestamp]]))
 
 
 (deftest check-v1-concurrency

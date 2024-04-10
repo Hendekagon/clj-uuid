@@ -1,7 +1,8 @@
-(ns clj-uuid.node
-  (:require [clj-uuid.util      :refer [java6? exception compile-if]])
-  (:require [clj-uuid.bitmop    :refer [sb8 assemble-bytes ldb dpb mask]])
-  (:require [clj-uuid.constants :refer :all])
+(ns danlentz.clj-uuid.node
+  (:require
+    [danlentz.clj-uuid.util      :refer [java6? exception compile-if]]
+    [danlentz.clj-uuid.bitmop    :refer [sb8 assemble-bytes ldb dpb mask]]
+    [danlentz.clj-uuid.constants :refer :all])
   (:import  [java.net           InetAddress
                                 NetworkInterface]
             [java.security      MessageDigest]

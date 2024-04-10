@@ -1,11 +1,11 @@
-(ns clj-uuid
+(ns danlentz.clj-uuid.core
   (:refer-clojure :exclude [== uuid?])
-  (:require [clj-uuid
-             [constants :refer :all]
-             [util      :refer :all]
-             [bitmop    :as bitmop]
-             [clock     :as clock]
-             [node      :as node]])
+  (:require
+    [danlentz.clj-uuid.constants :refer :all]
+    [danlentz.clj-uuid.util :refer :all]
+    [danlentz.clj-uuid.bitmop :as bitmop]
+    [danlentz.clj-uuid.clock :as clock]
+    [danlentz.clj-uuid.node :as node])
   (:import [java.security MessageDigest]
            [java.io       ByteArrayOutputStream
                           ObjectOutputStream]
